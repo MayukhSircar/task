@@ -151,10 +151,4 @@ Copy code
 
 ---
 
-If you want, I can also generate:
 
-✅ README with badges  
-✅ README with screenshots placeholders  
-✅ README with a professional cover banner  
-
-Just tell me!
