@@ -1,73 +1,160 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🚀 Task Manager App  
+A modern and fast task management application built using **Vite**, **TypeScript**, **Tailwind CSS**, and **Supabase**.  
+Manage your tasks with an elegant UI, persistent backend, and clean architecture.
 
-**URL**: https://lovable.dev/projects/29af6b3c-33fe-4ac4-b312-b19ffc204ecf
+---
 
-## How can I edit this code?
+## 📂 Project Structure
 
-There are several ways of editing your application.
+project/
+│── public/ # Static assets
+│── src/ # Main frontend source code
+│── supabase/ # Supabase configs / types / migrations
+│── .env # Environment variables
+│── index.html
+│── package.json
+│── vite.config.ts
+│── tailwind.config.ts
+│── tsconfig.json
+│── eslint.config.js
 
-**Use Lovable**
+yaml
+Copy code
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/29af6b3c-33fe-4ac4-b312-b19ffc204ecf) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+### Core Features
+- Add new tasks  
+- Edit tasks  
+- Delete tasks  
+- Mark tasks as completed  
+- Responsive UI  
+- Clean component structure  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Supabase-Based Features (if enabled)
+- Realtime task updates  
+- Persistent database storage  
+- Authentication (Email/OAuth)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
+
+| Tech | Description |
+|------|-------------|
+| TypeScript | Type-safe frontend development |
+| Vite | Lightning-fast bundler & dev server |
+| React (if used) | UI component layer |
+| Tailwind CSS | Utility-first CSS framework |
+| Supabase | Backend, database, auth |
+| ESLint | Code linting |
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the project root:
+
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-anon-key
+
+yaml
+Copy code
+
+⚠️ Use **only anon keys** (never service_role keys).
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/your-username/task-manager.git
+cd task-manager
+2️⃣ Install dependencies
+sh
+Copy code
+npm install
+or
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+sh
+Copy code
+bun install
+3️⃣ Run development server
+sh
+Copy code
 npm run dev
-```
+Your app runs at:
 
-**Edit a file directly in GitHub**
+arduino
+Copy code
+http://localhost:5173
+🧪 Build for Production
+sh
+Copy code
+npm run build
+Preview build:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+sh
+Copy code
+npm run preview
+📦 Deployment
+You can deploy the production build to:
 
-**Use GitHub Codespaces**
+Vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Netlify
 
-## What technologies are used for this project?
+Cloudflare Pages
 
-This project is built with:
+Supabase static hosting
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Deploy on Vercel:
+Push repo to GitHub
 
-## How can I deploy this project?
+Import repo into Vercel
 
-Simply open [Lovable](https://lovable.dev/projects/29af6b3c-33fe-4ac4-b312-b19ffc204ecf) and click on Share -> Publish.
+Add environment variables
 
-## Can I connect a custom domain to my Lovable project?
+Deploy
 
-Yes, you can!
+📘 Scripts
+Script	Description
+npm run dev	Start dev server
+npm run build	Build for production
+npm run preview	Preview production build
+npm run lint	Run ESLint
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🤝 Contributing
+Fork the repository
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Create your feature branch
+
+Commit your changes
+
+Push to your branch
+
+Open a Pull Request
+
+📜 License
+Licensed under the MIT License.
+
+⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub!
+
+yaml
+Copy code
+
+---
+
+If you want, I can also generate:
+
+✅ README with badges  
+✅ README with screenshots placeholders  
+✅ README with a professional cover banner  
+
+Just tell me!
